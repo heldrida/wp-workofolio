@@ -1,0 +1,31 @@
+body,
+.page-section,
+.mid-wrp,
+.content	 {
+	background: #FFF !important;
+}
+.logo, 
+.logo a,
+#header,
+.page-section {
+	border:none !important;
+}
+#page-wrap { width:100%; background:#FFF !important; }
+.page-section { height:auto; width:891px !important; }
+.home .content .col-a, 
+.home .content .col-b {
+   	float: left;
+    height: auto;
+    width: 435px !important;
+    display: block;
+    position: relative;
+    zoom: 1;
+    overflow:hidden;
+    text-align:left;
+}
+.home p {
+	text-align:left;
+}
+.home .content .col-a .item p {
+	width:310px !important;
+}

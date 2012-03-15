@@ -1,0 +1,30 @@
+.works .thumb,
+.works .filter {
+	position:relative;
+	box-shadow:5px 5px 8px #ccc;
+	behavior: url('wp-content/themes/howoco/public/css/PIE.htc');	
+}
+.works > .filter {
+	-pie-background: linear-gradient(left, #BBB, #CCC);
+	behavior: url('wp-content/themes/howoco/public/css/PIE.htc');
+}
+.works > .active {
+	opacity:0.9;
+	background: #f14e79;
+	-pie-background: linear-gradient(left,#f14e79, #f08827);
+	behavior: url('wp-content/themes/howoco/public/css/PIE.htc');
+}
+#greybuttons {
+	-pie-background: linear-gradient(top, #555, #333);
+	behavior: url('wp-content/themes/howoco/public/css/PIE.htc');
+}
+.contact-wrp {
+	float:left;
+	position:relative;
+	display:block;
+    height: auto;
+    width: auto;
+}
+#infoContent {}
+#infoContent p,
+#infoContent img {}
